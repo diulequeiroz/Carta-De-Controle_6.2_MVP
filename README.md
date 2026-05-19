@@ -1,17 +1,17 @@
-# Cartas de Controle X̄ e R — Tópico 6.2
-## Cartas de Shewhart para Variáveis: Média e Amplitude
+**Autor:** Diule Vieira de Queiroz  
+**Matrícula:** 202043361  
 
-**Autor:** Andre Luiz Marques Serrano  
 **Disciplina:** Controle Estatístico da Qualidade  
-**Referência:** Montgomery, D. C. (2016). *Introdução ao Controle Estatístico da Qualidade*. 7ª ed. LTC. Seção 6.2, pp. 238–274.
+
+> **Contexto do Projeto:** Este notebook adapta a metodologia de Cartas de Controle apresentada pelo **Professor Dr. Andre Luiz Marques Serrano**  (disponível em Github: andrelmsunb )para o dataset *Steel Plates Faults*. O objetivo é integrar as ferramentas clássicas de **CEP** com modelos de **Machine Learning** para monitorar e classificar a qualidade na produção siderúrgica.  
+**Referência:** Montgomery, D. C. (2016). *Introdução ao Controle Estatístico da Qualidade*. 7ª ed. LTC.  
 
 ---
 
-## Descrição
+## Objetivos deste Notebook
 
-Este projeto implementa as **Cartas de Controle X̄ (média) e R (amplitude)** conforme o Tópico 6.2 do livro *Introdução ao Controle Estatístico da Qualidade* de Douglas C. Montgomery (7ª ed., 2016).
+Este notebook adapta a construção e interpretação das **Cartas de Controle X̄ (média) e R (amplitude)** para o monitoramento da qualidade de placas de aço, integrando os conceitos de CEP ao pipeline de Machine Learning exigido para o MVP. Serão abordadas as seguintes variações:
 
-As cartas de Shewhart para variáveis são as ferramentas mais utilizadas no Controle Estatístico do Processo (CEP) quando a característica de qualidade é mensurável em escala contínua. O par X̄-R monitora simultaneamente a **localização** (média) e a **dispersão** (variabilidade) do processo.
 
 ---
 
